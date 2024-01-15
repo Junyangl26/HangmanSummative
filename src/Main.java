@@ -79,7 +79,7 @@ public class Main {
                 //print out the hangman after each turn//
             }
             System.out.println("Do you want to play again? (Y/N)");
-            String playAgainInput = scanner.nextLine().toUpperCase();
+            String playAgainInput = scanner. nextLine().toUpperCase();
             playAgain = playAgainInput.equals("Y");
             //boolean setup playagain//
         }
